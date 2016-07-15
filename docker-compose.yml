@@ -1,0 +1,9 @@
+version: "2"
+services:
+  poc-harbor-websockets:
+    image: registry.services.dmtio.net/poc-harbor-websockets:1.0.6
+    ports:
+    - 80:80
+    environment:
+      HEALTHCHECK: /hc
+      PORT: "80"

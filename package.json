@@ -1,0 +1,16 @@
+{
+  "name": "elb-websockets",
+  "version": "1.0.6",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "apache 2",
+  "dependencies": {
+    "express": "^4.13.4",
+    "findhit-proxywrap": "^0.3.11"
+  }
+}
